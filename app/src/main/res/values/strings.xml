@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dingo story</string>
+    <string name="golpo1">Sunflower Sage</string>
+    <string name="golpo2">The Enchanted Emporium</string>
+    <string name="golpo3">A Cat and Dog</string>
+    <string name="golpo4">Bustling Journey</string>
+    <string name="golpo5">Town Giggleville</string>
+    <string name="golpo6">Andy House</string>
+    <string name="golpo7">Sunday with DAD</string>
+    <string name="golpo8">Fluffy Tabby Cat</string>
+    <string name="golpo9">University Day</string>
+    <string name="golpo10">Sea with Srity</string>
+
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#00FF19"
+
+        />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+
+            >
+
+            <Button
+                android:id="@+id/golpo1"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo1"
+                android:textSize="30dp"
+
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo2"
+
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:text="@string/golpo2"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo3"
+
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo3"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo4"
+
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo4"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo5"
+
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo5"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo6"
+
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo6"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo7"
+
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo7"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo8"
+
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo8"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo9"
+
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo9"
+                android:textSize="30dp"
+                />
+            <Button
+                android:textColor="@color/black"
+                android:id="@+id/golpo10"
+
+                android:layout_margin="8dp"
+                app:backgroundTint="@null"
+                android:background="@drawable/curve"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/golpo10"
+                android:textSize="30dp"
+                />
+
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="30dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
